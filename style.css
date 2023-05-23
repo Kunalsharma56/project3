@@ -1,0 +1,285 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #67676729;
+}
+
+.container1 {
+    position: relative;
+    font-size: 25px;
+    height: 75px;
+    width: auto;
+    background-color: #FFF;
+    padding-top: 10px;
+    padding-left: 150px;
+}
+
+.container2 {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 50px;
+    position: relative;
+    padding-left: 90px;
+    top: 130px;
+
+
+
+}
+
+.container3 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #00A5EC;
+    position: absolute;
+    left: 75%;
+    top: 130px;
+}
+
+.container4 {
+    filter: blur(8px);
+}
+
+.container5 {
+    height: 200px;
+    width: 390px;
+    background-color: white;
+    border: 1px solid #EDEDED;
+    position: absolute;
+    left: 30%;
+    border-radius: 10px;
+    top: 200px;
+    color: #858585;
+}
+
+.container6 {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 50px;
+    position: absolute;
+    padding-left: 30%;
+    top: 220px;
+}
+
+.container7 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #00A5EC;
+    position: absolute;
+    left: 56%;
+    top: 130px;
+}
+
+.container8 {
+    filter: blur(8px);
+}
+
+.box {
+    width: 350px;
+    height: 280px;
+    border: 1px solid #EDEDED;
+    background-color: #FFF;
+    border-radius: 10px;
+    font-family: 'cursive';
+    font-size: 26px;
+    position: relative;
+    color: #424242;
+    text-decoration: none;
+}
+
+.box1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+    position: relative;
+}
+
+
+.box2 {
+    position: relative;
+    left: 79%;
+    top: 50px;
+    color: #424242;
+    font-size: 25px;
+    width: 170px;
+}
+
+.box3 {
+
+    position: relative;
+    left: 60%;
+    top: 50px;
+    color: #424242;
+    font-size: 25px;
+}
+
+.box4 {
+    position: relative;
+    left: 0%;
+    top: 14px;
+    color: #424242;
+    font-size: 25px;
+}
+
+.box5 {
+
+    top: 120px;
+    left: 240px;
+    width: 139px;
+    height: 30px;
+    background: #00A5EC 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+    text-decoration: none;
+}
+
+.box6 {
+    top: 0px;
+    left: 10px;
+    width: 369px;
+    height: 30px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+    position: relative;
+
+}
+
+.box7 {
+    top: 10px;
+    left: 349px;
+    position: absolute;
+    font-size: 30px;
+    color: #C2C2C2;
+
+}
+
+span {
+    color: #00A5EC;
+
+}
+
+h1 {
+    color: #424242;
+}
+
+h2 {
+    color: #00A5EC;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+hr {
+    color: #EDEDED;
+    width: auto;
+    position: relative;
+}
+
+input[ type="checkbox"] {
+    width: 20px;
+    height: 20px;
+
+}
+
+#text {
+    text-decoration: line-through;
+    color: #C2C2C2;
+
+}
+
+#back {
+    position: absolute;
+    font-size: 30px;
+    top: 135px;
+    left: 30%;
+    color: #424242;
+}
+
+.back {
+    top: 122px;
+    left: 340px;
+    position: absolute;
+    font-size: 55px;
+    color: black;
+}
+@media only screen and (min-width: 800px) and (max-width:1000px)
+{
+    .box2{
+        left: 10%;
+        width: 200px;
+        top:50px;
+    }
+    .container3{
+        left: 4%;
+    }
+    .container2{
+        width: 550px;
+        left: 150px;
+    }
+    .container5{
+        top: 270px;
+    }
+    .back{
+        left:180px;
+    }
+    .container7{
+        left: 58%;
+    }
+    .box3{
+        left: 65%;
+    }
+
+}
+@media only screen and (min-width:400px) and (max-width:799px){
+    .container3{
+        left:0;
+    }
+    .container1{
+        padding-left: 14px;
+    }
+    .box2{
+        left: 13%;
+        width: 259px;
+        top:55px;
+    }
+    .container2{
+        padding-left: 30px;
+    }
+    .container5{
+        top: 230px;
+        left: 3%;
+    }
+    .container6{
+        padding-left: 8%;
+    }
+    .container7{
+        left: 45%;
+    }
+    #back{
+        left: 20%;
+    }
+    .back{
+        left: 20px;
+    }
+}
+    
+
+    
