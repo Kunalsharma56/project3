@@ -169,6 +169,18 @@ body {
     color: #C2C2C2;
 
 }
+.box8 {
+    width: 350px;
+    height: 280px;
+    border: 1px solid #EDEDED;
+    background-color: #FFF;
+    border-radius: 10px;
+    font-family: 'cursive';
+    font-size: 26px;
+    position: relative;
+    color: #424242;
+    text-decoration: none;
+}
 
 span {
     color: #00A5EC;
