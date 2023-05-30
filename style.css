@@ -253,11 +253,16 @@ input[ type="checkbox"] {
         left:180px;
     }
     .container7{
-        left: 58%;
+        left: 45%;
     }
     .box3{
         left: 65%;
         display:none;
+    }
+    .box8{
+        width: 550px;
+        height: 400px;
+        font-size: 45px;
     }
 
 }
