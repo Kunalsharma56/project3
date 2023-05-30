@@ -224,6 +224,7 @@ input[ type="checkbox"] {
         left: 57%;
         width: 200px;
         top:50px;
+        display:none;
     }
     .container3{
         left:45%;
@@ -244,6 +245,7 @@ input[ type="checkbox"] {
     }
     .box3{
         left: 65%;
+        display:none;
     }
 
 }
@@ -258,6 +260,7 @@ input[ type="checkbox"] {
         left:60%;
         width: 160px;
         top:55px;
+        display:none;
     }
     .container2{
         padding-left: 30px;
@@ -281,6 +284,7 @@ input[ type="checkbox"] {
     }
     .box3{
         width:160px;
+        display:none;
     }
 }
     
