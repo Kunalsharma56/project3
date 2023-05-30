@@ -255,6 +255,9 @@ input[ type="checkbox"] {
     .container7{
         left: 45%;
     }
+    .container6{
+        padding-left:15%;
+    }
     .box3{
         left: 65%;
         display:none;
