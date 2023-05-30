@@ -248,14 +248,14 @@ input[ type="checkbox"] {
 }
 @media only screen and (min-width:400px) and (max-width:799px){
     .container3{
-        left:0;
+        left:190px;
     }
     .container1{
         padding-left: 14px;
     }
     .box2{
-        left: 13%;
-        width: 259px;
+        left:60%;
+        width: 160px;
         top:55px;
     }
     .container2{
