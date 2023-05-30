@@ -226,11 +226,12 @@ input[ type="checkbox"] {
         top:50px;
     }
     .container3{
-        left: 50%;
+        left:45%;
     }
     .container2{
-        width: 550px;
-        left: 150px;
+        width:98%;
+        left: 10px;
+        padding-left:0px;
     }
     .container5{
         top: 270px;
